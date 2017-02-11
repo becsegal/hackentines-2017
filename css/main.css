@@ -9,6 +9,13 @@ body {
   display: none;
 }
 
+a {
+  color: #999;
+}
+a:hover {
+  color: #333;
+}
+
 .btn-primary { 
   border-radius: 4px;
   padding: 10px;
@@ -16,6 +23,7 @@ body {
   background: #31b0d5;
   color: white;
   margin: 10px 0;
+  font-size: 25px;
 }
 
 .btn-primary:hover { 
