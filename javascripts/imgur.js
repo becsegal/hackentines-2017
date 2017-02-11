@@ -22,6 +22,6 @@ function saveToImgur(canvas){
 
 function showLink(data) {
   if(data.success == true) {
-      $("body").append("<a href='" + data.data.link + "'>View on Imgur</a>");
+      $("#imgurLink").html("<a href='" + data.data.link + "'>View on Imgur</a>");
   }
 }

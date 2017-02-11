@@ -12,16 +12,20 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Permanent+Marker|Nova+Mono|Monoton|Press+Start+2P|Bowlby+One+SC|Cedarville+Cursive" rel="stylesheet" type="text/css">
 
+
   </head>
   <body class="hearts-gray">
-    <div class="hackentines-day-card-container cursive-font pink-hearts">
+    <div class="container-fluid">
+      <div class="hackentines-day-card-container cursive-font pink-hearts">
 
-      <div class="card">
-        <h1 class="white-text">You are the CSS to my HTML</h1>
+        <div class="card">
+          <h1 class="white-text">You are the CSS to my HTML</h1>
+        </div>
       </div>
-    </div>
 
-    <button id='saveToCanvas'>Save to Canvas</button>
+      <button id='saveToCanvas' class='btn btn-primary' >Save to Imgur</button>
+      <div id='imgurLink'></div>
+    </div>
 
     <script src="javascripts/jquery.js"></script>
     <script src="javascripts/html2canvas.js"></script>
