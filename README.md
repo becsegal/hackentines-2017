@@ -3,4 +3,4 @@
 
 This was the starter code (see `original` branch). I added a save-to-imgur link.
 
-(Live Demo)[https://becsegal.github.io/hackentines-2017/]
+[Live Demo](https://becsegal.github.io/hackentines-2017/)
